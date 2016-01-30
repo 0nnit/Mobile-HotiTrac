@@ -1,0 +1,271 @@
+∏body {
+  padding-top: 80px;
+}
+#homepagelogin {
+  border-style: solid;
+  border-color: #663300;
+  border-width: 4px;
+  border-radius: 4px;
+}
+#lihead {
+  font-family: 'Dosis', san-serif;
+  color: #33cc33;
+  text-align:center;
+}
+#liidlabel {
+  font-family: 'Dosis', san-serif;
+  color: #33cc33;
+}
+#pwdlabel {
+  font-family: 'Dosis', san-serif;
+  color: #33cc33;
+}
+#liidsave {
+  font-family: 'Dosis', san-serif;
+  color: #33cc33;
+}
+#homecontent {
+  border-width: 4px;
+  border-style: solid;
+  border-color: #33cc33;
+  border-radius: 4px;
+  padding: 6px;
+  text-align: justify;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1pc;
+  color: #663300
+}
+#footercontent {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1pc;
+  color: #33cc33;
+  text-align: center;
+  justify-content: center;
+}
+#ppheading {
+  color: #663300;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+#recentviewPP {
+  text-align: center;
+  border-style: solid;
+  border-color: #33cc33;
+  border-width: 4px;
+  border-radius: 4px;
+}
+#recentheader {
+  color: #33cc33;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+#jumboname {
+  color: #33cc33;
+  font-family: 'Dosis', sans-serif;
+}
+#jumbobar {
+  color: #663300;
+  font-family: 'Dosis', sans-serif;
+}
+#homejumbotron {
+  height: 120px;
+  align-content: center;
+  background-color: #e8e8e8;
+}
+#uifeatureimg {
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 4px;
+}
+#uifeaturetext {
+  color: #33cc33;
+  border-color: #fff;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 4px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 40px;
+  }
+#uifeatureflow {
+  background-color: #e8e8e8;
+  border-color: #663300;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 4px;
+  height: 150px;
+  justify-content: center;
+}
+#uiflow {
+  border-color: #fff;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 4px;
+  margin-top: 7px;
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+}
+#uiflowarrow {
+  color: #663300;
+  width: 40px;
+  height: 30px;
+  display: inline;
+}
+#uiflowimg {
+  border-color: #33cc33;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 4px
+}
+#tablable {
+  color: #33cc33;
+  border-color: #663300;
+  border-style: solid;
+  boder-width: 4px;
+  border-radiu: 4px;
+  padding: 4px;
+  background-color: #663300;
+}
+#tabtitle {
+  color: #33cc33;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  border-color: #663300;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+  background-color: #663300;
+}
+#inputlable {
+  color: #33cc33;
+  font-family: 'Dosis', sans-serif;
+}
+#inputcheckbox {
+  color: #33cc33;
+  font-family: 'Dosis', sans-serif;
+  border-color: #663300;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 4px;
+}
+#createstrain {
+  display: inline;
+}
+a:link {
+   color: #33cc33;
+}
+a:hover {
+  color: #009900;
+}
+a:active {
+  color: #009900;
+}
+a:visited {
+  color: #33cc33;
+}
+#userdisarea {
+  margin-top: 7px;
+}
+#menubutton {
+  margin-top: 7px;
+  margin-left: 50px;
+   height: 125px;
+   width: 170px;
+   font-size: 30px;
+}
+#navbarname {
+    background-color: inherit;
+    font-family: 'Dosis', sans-serif;
+    color: #33cc33;
+    font-size: 100px;
+}
+#brandIMG {
+  margin-top: 7px;
+    height: 125px;
+    width: 125px;
+}
+#navbarcopy {
+    font-size: 9px;
+}
+#ppPicture {
+    background-color: #e8e8e8;
+    height: 300px;
+    width; 300px;
+}
+#lifecyclepics {
+    background-color: #e8e8e8;
+    border-style: solid;
+    border-color: #33cc33;
+    border-width: 4px;
+    border-radius: 4px;
+    height: 300px;
+}
+#plantfeedings {
+    height: 500px;
+    background-color: #e8e8e8;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 4px;
+    border-color: #33cc33;
+    text-align: center;
+}
+#ppText {
+    font-family: 'Dosis', sans-serif;
+    color: #663300;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+#searchfilters {
+  color: #33cc33;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+#sfArea {
+  background-color: #e8e8e8;
+}
+#srArea {
+  background-color: #e8e8e8;
+}
+#htArea {
+  background-color: #e8e8e8;
+}
+#ppArea {
+  background-color: #e8e8e8;
+}
+#rvArea {
+  background-color: #e8e8e8;
+}
+#contentbars {
+  border-color: #663300;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 4px;
+}
+/* This is the panel-success header override */
+.panel-success > .panel-heading {
+  color: #fff;
+  font-family: 'Dosis', sans-serif;
+}
+/* End Override */
+#jumbobar {
+  background-image: url("/Users/Onnit/Desktop/PegLabs/Garden/github/HortiTrac/Images/jumboflowers.png");
+  color: #fff;
+  border-color: #33cc33;
+  border-style: solid;
+  border-size: 4px;
+  border-radius: 4px;
+}
