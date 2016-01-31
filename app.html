@@ -1,0 +1,67 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HortiTrac</title>
+  <!-- Font CDN from Google.com -->
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
+  <link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css' />
+  <!-- Bootstrap-->
+  <!-- Latest compiled CSS -->
+  <link rel="stylesheet" href="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/css/bootstrap-theme.css">
+  <!--jQuery-->
+  <script src="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/js/jQuery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+  <!-- CSS File Links -->
+
+  <link type="text/css" rel="stylesheet" href="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/app.css" />
+</head>
+<div class="row">
+  <div id="MainNav" class="navbar navbar-default navbar-fixed-top">
+   <div class="navbar-header col-sm-2 col-xs-2">
+      <a href="##">
+        <img id="BrandImg" src="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/Images/hortitracnavlogo1.0.0.png"
+      </a>
+   </div>
+   <div class="navbar-header col-sm-4 col-xs-4">
+     <h1 id="NavName"><b>HortiTrac</b></h1>
+   </div>
+   <button id="SearchBtn" class="btn btn-success btn-lg dropdown-toggle col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1" type="button" data-toggle="dropdown">
+    <h1><span id="SearchIcon" class="glyphicon glyphicon-search"> </span></h1>
+  </button>
+   <!-- This is the dropdown Search Bar -->
+   <div id="SearchBar" class="dropdown-menu col-sm-12 col-xs-12">
+     <div class="form">
+
+         <input id="SearchField" type="text" class="col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-1" placeholder="Enter Search Here"/>
+         <button id="SubmitSearch" type="submit" class="btn btn-success col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+          <h2><span class="glyphicon glyphicon-search"> </span></h2>
+         </button>
+         <button id="SearchFilter" type="button" class="btn btn-success dropdown-toggle col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1" data-toggle="dropdown">
+          <h2><span class="glyphicon glyphicon-filter"> </span></h2>
+         </button>
+    </div><!-- End Form -->
+    <!-- This is the SearchFilter Dropdown-Menu -->
+    <ul class="dropdown-menu col-sm-12 col-xs-12">
+      <li><label for="">Indica:</label><input type="radio"></li>
+    </ul>
+    <!-- End Filters Dropdown -->
+   </div>
+   <!-- End Search Bar -->
+   <button id="MenuBtn" type="button" class="btn btn-success btn-lg dropdown-toggle col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1" data-toggle="dropdown">
+     <h1><span id="MenuIcon" class="glyphicon glyphicon-align-center"></span></h1>
+   </button>
+   <!-- This is the MenuBtn dropdown menu -->
+    <ul id="MenuBar" class="dropdown-menu col-sm-12 col-xs-12">
+
+    </ul>
+   <!-- End MenuBtn dropdown menu. -->
+
+  </div><!-- End .navbar -->
+</div><!-- End Row -->
+<body>
+
+</body>
+</html>
