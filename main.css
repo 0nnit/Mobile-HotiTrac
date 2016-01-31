@@ -1,5 +1,5 @@
 ∏body {
-  padding-top: 80px;
+  padding-top: 250px;
 }
 #homepagelogin {
   border-style: solid;
@@ -269,3 +269,8 @@ a:visited {
   border-size: 4px;
   border-radius: 4px;
 }
+/* .dropdown-menu ovveride on width for main drop down. */
+.dropdown-menu {
+  width: 100%;
+}
+/* End Override */
