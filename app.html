@@ -1,67 +1,157 @@
 <<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>HortiTrac</title>
-  <!-- Font CDN from Google.com -->
-  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
-  <link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css' />
-  <!-- Bootstrap-->
-  <!-- Latest compiled CSS -->
-  <link rel="stylesheet" href="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/css/bootstrap.css">
-  <link rel="stylesheet" href="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/css/bootstrap-theme.css">
-  <!--jQuery-->
-  <script src="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/js/jQuery.min.js"></script>
-  <!-- Latest compiled JavaScript -->
-  <script src="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
-  <!-- CSS File Links -->
+  <html lang="en">
 
-  <link type="text/css" rel="stylesheet" href="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/app.css" />
-</head>
-<div class="row">
-  <div id="MainNav" class="navbar navbar-default navbar-fixed-top">
-   <div class="navbar-header col-sm-2 col-xs-2">
-      <a href="##">
-        <img id="BrandImg" src="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/Images/hortitracnavlogo1.0.0.png"
-      </a>
-   </div>
-   <div class="navbar-header col-sm-4 col-xs-4">
-     <h1 id="NavName"><b>HortiTrac</b></h1>
-   </div>
-   <button id="SearchBtn" class="btn btn-success btn-lg dropdown-toggle col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1" type="button" data-toggle="dropdown">
-    <h1><span id="SearchIcon" class="glyphicon glyphicon-search"> </span></h1>
-  </button>
-   <!-- This is the dropdown Search Bar -->
-   <div id="SearchBar" class="dropdown-menu col-sm-12 col-xs-12">
-     <div class="form">
+  <head>
+    <meta charset="UTF-8">
+    <title>HortiTrac</title>
+    <!-- Font CDN from Google.com -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css' />
+    <!-- Bootstrap-->
+    <!-- Latest compiled CSS -->
+    <link rel="stylesheet" href="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/css/bootstrap-theme.css">
+    <!--jQuery-->
+    <script src="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/js/jQuery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+    <!-- CSS File Links -->
 
-         <input id="SearchField" type="text" class="col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-1" placeholder="Enter Search Here"/>
-         <button id="SubmitSearch" type="submit" class="btn btn-success col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
-          <h2><span class="glyphicon glyphicon-search"> </span></h2>
-         </button>
-         <button id="SearchFilter" type="button" class="btn btn-success dropdown-toggle col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1" data-toggle="dropdown">
-          <h2><span class="glyphicon glyphicon-filter"> </span></h2>
-         </button>
-    </div><!-- End Form -->
-    <!-- This is the SearchFilter Dropdown-Menu -->
-    <ul class="dropdown-menu col-sm-12 col-xs-12">
-      <li><label for="">Indica:</label><input type="radio"></li>
-    </ul>
-    <!-- End Filters Dropdown -->
-   </div>
-   <!-- End Search Bar -->
-   <button id="MenuBtn" type="button" class="btn btn-success btn-lg dropdown-toggle col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1" data-toggle="dropdown">
-     <h1><span id="MenuIcon" class="glyphicon glyphicon-align-center"></span></h1>
-   </button>
-   <!-- This is the MenuBtn dropdown menu -->
-    <ul id="MenuBar" class="dropdown-menu col-sm-12 col-xs-12">
+    <link type="text/css" rel="stylesheet" href="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/app.css" />
+  </head>
+  <div class="row">
+    <div id="MainNav" class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header col-sm-2 col-xs-2">
+        <a href="##">
+          <img id="BrandImg" src="/Users/Onnit/Desktop/PegLabs/Garden/github/Mobile-HotiTrac/Images/hortitracnavlogo1.0.0.png" </a>
+      </div>
+      <div class="navbar-header col-sm-4 col-xs-4">
+        <h1 id="NavName"><b>HortiTrac</b></h1>
+      </div>
+      <button id="SearchBtn" class="btn btn-success btn-lg dropdown-toggle col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1" type="button" data-toggle="dropdown">
+        <h1><span id="SearchIcon" class="glyphicon glyphicon-search"> </span></h1>
+      </button>
+      <!-- This is the dropdown Search Bar -->
+      <div id="SearchBar" class="dropdown-menu col-sm-12 col-xs-12">
+        <div class="form">
 
-    </ul>
-   <!-- End MenuBtn dropdown menu. -->
+          <input id="SearchField" type="text" class="col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-1" placeholder="Enter Search Here" />
+          <button id="SubmitSearch" type="submit" class="btn btn-success col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+            <h2><span class="glyphicon glyphicon-search"> </span></h2>
+          </button>
+          <button id="SearchFilter" type="button" class="btn btn-success dropdown-toggle col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1" data-toggle="dropdown">
+            <h2><span class="glyphicon glyphicon-filter"> </span></h2>
+          </button>
+        </div>
+        <!-- End Form -->
+        <!-- This is the SearchFilter Dropdown-Menu -->
+        <ul class="dropdown-menu col-sm-12 col-xs-12">
+          <li>
+            <label for="">Indica:</label>
+            <input type="radio">
+          </li>
+        </ul>
+        <!-- End Filters Dropdown -->
+      </div>
+      <!-- End Search Bar -->
+      <button id="MenuBtn" type="button" class="btn btn-success btn-lg dropdown-toggle col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1" data-toggle="dropdown">
+        <h1><span id="MenuIcon" class="glyphicon glyphicon-align-center"></span></h1>
+      </button>
+      <!-- This is the MenuBtn dropdown menu -->
+      <ul id="MenuBar" class="dropdown-menu col-sm-12 col-xs-12">
 
-  </div><!-- End .navbar -->
-</div><!-- End Row -->
-<body>
+      </ul>
+      <!-- End MenuBtn dropdown menu. -->
+    </div>
+    <!-- End .navbar -->
+  </div>
+  <!-- End Row -->
 
-</body>
-</html>
+  <body>
+    <!-- This is is the begining of the creat new life tool -->
+    <div class="row">
+      <div class="panel panel-success col-sm-12 col-xs-12">
+        <div id="ToolBar" class="panel-heading">
+          Create New Life<span class="glyphicon glyphicon-leaf pull-right"></span>
+        </div>
+        <div id="SNFarea" class="panel-body" role="menu">
+          <div class="container">
+            <!-- This action from this from should write to label the new plant in the Data base. -->
+            <form action="###" class="input-group">
+              <p>
+                <label id="ToolLabel">Plant ID#: (### From DB)</label>
+              </p>
+              <br />
+              <p>
+                <label id="ToolLabel">Strain Name:</label>
+                <input id="ToolTextBox" type="text" placeholder="Enter Strain Name" />
+              </p>
+              <br />
+              <br />
+              <p>
+                <h4 id="ToolLabel">(Select Strain Family)</h4>
+                <input id="ToolRadioBox" type="radio" name="CreateIndica">
+                <label id="ToolLabel" for="CreatIndica"> Indica</label>
+                <br />
+                <input id="ToolRadioBox" type="radio" name="CreateSativa">
+                <label id="ToolLabel" for="CreatSativa"> Sativa</label>
+                <br />
+                <input id="ToolRadioBox" type="radio" name="CreateHybrid">
+                <label id="ToolLabel" for="CreatHybrid"> Hybrid</label>
+              </p>
+              <p>
+                <input id="ToolRadioBox" type="radio" name="seed">
+                <label id="ToolLabel"> Seed</label>
+                <br />
+                <input id="ToolRadioBox" type="radio" name="clone">
+                <label id="ToolLabel"> Clone</label>
+              </p>
+              <p>
+                <h5 id="inputlable">Day One Photo(Upload Photos of Seeds or Unrooted Clone):</h5>
+                <input type="file" name="dayonePhoto">
+              </p>
+            </form>
+          </div>
+        </div>
+        <!-- End Panel body #SNFarea -->
+      </div>
+      <!-- End Panel -->
+    </div>
+    <!-- End Row -->
+    <!-- This is is the begining of the watering/feeding tool tool -->
+    <div class="row">
+      <div class="panel panel-success col-sm-12 col-xs-12">
+        <div id="ToolBar" class="panel-heading">
+          Watering/Feeding<span class="glyphicon glyphicon-tint pull-right"></span>
+        </div>
+        <div id="SNFarea" class="panel-body" role="menu">
+          <div class="container">
+            <!-- This action from this from should write to add  watering data the new plant in the Data base. -->
+
+          </div>
+        </div>
+        <!-- End Panel body #Watering/Feeding -->
+      </div>
+      <!-- End Panel -->
+    </div>
+    <!-- End Row -->
+    <!-- This is is the begining of the Lighting/Electrical tool tool tool -->
+    <div class="row">
+      <div class="panel panel-success col-sm-12 col-xs-12">
+        <div id="ToolBar" class="panel-heading">
+          Lighting/Usage <span class="glyphicon glyphicon-flash pull-right"></span>
+        </div>
+        <div id="SNFarea" class="panel-body" role="menu">
+          <div class="container">
+            <!-- This action from this from should write to add  watering data the new plant in the Data base. -->
+
+          </div>
+        </div>
+        <!-- End Panel body #Lighting/Electrical Tool -->
+      </div>
+      <!-- End Panel -->
+    </div>
+    <!-- End Row -->
+  </body>
+
+  </html>
