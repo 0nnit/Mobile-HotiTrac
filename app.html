@@ -28,9 +28,9 @@
       <div class="navbar-header col-sm-4 col-xs-4">
         <h1 id="NavName"><b>HortiTrac</b></h1>
       </div>
-      <button id="SearchBtn" class="btn btn-success btn-lg dropdown-toggle col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1" type="button" data-toggle="dropdown">
+      <a id="SearchBtn" class="btn btn-success btn-lg col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1" type="button" data-toggle="collapse" data-target="#SearchBar">
         <h1><span id="SearchIcon" class="glyphicon glyphicon-search"> </span></h1>
-      </button>
+      </a>
       <!-- This is the dropdown Search Bar -->
       <div id="SearchBar" class="dropdown-menu col-sm-12 col-xs-12">
         <div class="form">
@@ -54,16 +54,33 @@
         <!-- End Filters Dropdown -->
       </div>
       <!-- End Search Bar -->
-      <button id="MenuBtn" type="button" class="btn btn-success btn-lg dropdown-toggle col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1" data-toggle="dropdown">
+      <a id="MenuBtn" type="button" class="btn btn-success btn-lg col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1" data-toggle="collapse" data-target="#MenuBar">
         <h1><span id="MenuIcon" class="glyphicon glyphicon-align-center"></span></h1>
-      </button>
+      </a>
       <!-- This is the MenuBtn dropdown menu -->
-      <ul id="MenuBar" class="dropdown-menu col-sm-12 col-xs-12">
+        <ul id="MenuBar" class="dropdown-menu col-sm-12 col-xs-12" role="menu">
+          <li><a href="###">Gardening</a>
+          </li>
+          <li class="divider"></li>
+          <li><a href="###">Review</a>
+          </li>
+          <li class="divider"></li>
+          <li><a href="##">Feedback</a>
+          </li>
+          <li class="divider"></li>
+          <li><a href="#">Tutorials</a>
+          </li>
+          <li class="divider"></li>
+          <li><a href="#">About Us</a>
+          </li>
+        </ul>
 
-      </ul>
       <!-- End MenuBtn dropdown menu. -->
     </div>
-    <!-- End .navbar -->
+    <!--End menu button div-->
+
+  </div>
+  <!-- End .navbar -->
   </div>
   <!-- End Row -->
 
@@ -71,10 +88,13 @@
     <!-- This is is the begining of the creat new life tool -->
     <div class="row">
       <div class="panel panel-success col-sm-12 col-xs-12">
-        <div id="ToolBar" class="panel-heading">
-          Create New Life<span class="glyphicon glyphicon-leaf pull-right"></span>
+        <div id="ToolBar" class="panel-heading center">
+          <button id="ToolDropdown" type="button" class="badge pull-left" data-toggle="collapse" data-target="#SNFarea">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+          </button>
+          <p id="ToolName" class="col-sm-9 col-xs-9">Create New Life</p><span class="glyphicon glyphicon-leaf pull-right"></span>
         </div>
-        <div id="SNFarea" class="panel-body" role="menu">
+        <div id="SNFarea" class="panel-body collapse" role="menu">
           <div class="container">
             <!-- This action from this from should write to label the new plant in the Data base. -->
             <form action="###" class="input-group">
@@ -122,9 +142,12 @@
     <div class="row">
       <div class="panel panel-success col-sm-12 col-xs-12">
         <div id="ToolBar" class="panel-heading">
-          Watering/Feeding<span class="glyphicon glyphicon-tint pull-right"></span>
+          <button id="ToolDropdown" type="button" class="badge pull-left" data-toggle="collapse" data-target="#WFarea">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+          </button>
+          <p id="ToolName" class="col-sm-9 col-xs-9">Watering/Feeding</p><span class="glyphicon glyphicon-tint pull-right"></span>
         </div>
-        <div id="SNFarea" class="panel-body" role="menu">
+        <div id="WFarea" class="panel-body collapse" role="menu">
           <div class="container">
             <!-- This action from this from should write to add  watering data the new plant in the Data base. -->
 
@@ -139,15 +162,38 @@
     <div class="row">
       <div class="panel panel-success col-sm-12 col-xs-12">
         <div id="ToolBar" class="panel-heading">
-          Lighting/Usage <span class="glyphicon glyphicon-flash pull-right"></span>
+          <button id="ToolDropdown" type="button" class="badge pull-left" data-toggle="collapse" data-target="#LUarea">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+          </button>
+          <p id="ToolName" class="col-sm-9 col-xs-9">Lighting/Usage</p><span class="glyphicon glyphicon-flash pull-right"></span>
         </div>
-        <div id="SNFarea" class="panel-body" role="menu">
+        <div id="LUarea" class="panel-body collapse" role="menu">
           <div class="container">
             <!-- This action from this from should write to add  watering data the new plant in the Data base. -->
 
           </div>
         </div>
         <!-- End Panel body #Lighting/Electrical Tool -->
+      </div>
+      <!-- End Panel -->
+    </div>
+    <!-- End Row -->
+    <!-- This is is the begining of the Potting/Soil tool tool -->
+    <div class="row">
+      <div class="panel panel-success col-sm-12 col-xs-12">
+        <div id="ToolBar" class="panel-heading">
+          <button id="ToolDropdown" type="button" class="badge pull-left" data-toggle="collapse" data-target="#PSarea">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+          </button>
+          <p id="ToolName" class="col-sm-9 col-xs-9">Potting/Soil</p><span class="glyphicon glyphicon-adjust pull-right"></span>
+        </div>
+        <div id="PSarea" class="panel-body collapse" role="menu">
+          <div class="container">
+            <!-- This action from this from should write to add  watering data the new plant in the Data base. -->
+
+          </div>
+        </div>
+        <!-- End Panel body #Potting/Soil -->
       </div>
       <!-- End Panel -->
     </div>
