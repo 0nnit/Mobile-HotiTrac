@@ -3,11 +3,11 @@
 New Development for Laboratory Data Base Input.
 ----
 <p>This is the start of a web application used for collecting and reviewing data gathered while cultivating cannabis in legal manners.
-The intent is to promote the collection of clean cultivation and document these habits as a standard for the industry as a whole.
+<p>The intent is to promote the collection of clean cultivation and document these habits as a standard for the industry as a whole.
 ----
-<h1>IDEAS for the Project Stack
+<h1>Ideas for the Project Stack.
 <p>
-| <h1> Ideas for Frameworks/Stack |
+| <h1> Ideas for Frameworks/Stack                                                                  |
 | ------------------------------------------------------------------------------------------------ |
 | <h3>Ionic              | <h3> Using this as the HTML 5 SDK for iOS and Android mobile platforms. |
 | <h3>Mongo DB           | <h3> This is going to be the NoSql DB used for scaleability.            |
