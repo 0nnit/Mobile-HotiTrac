@@ -1,6 +1,6 @@
 # Mobile-HotiTrac
 ---
- This is the start of a web application used for collecting and reviewing data gathered while cultivating cannabis in legal manners. The intent is to promote the collection of clean cultivation data and document these habits as a standard for the industry as a whole.
+ This is the start of a web application used for collecting and reviewing data gathered while cultivating cannabis in legal manners. The intent is to promote the collection of clean cultivation data and document these habits as a standard for the industry as a whole. The starting focus will me mobile first and will target both iOS and Android Operateing Systems using Cordova and the Iconic Frame Work. 
 ---
 ## Ideas for the Project Stack.
 
