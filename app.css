@@ -90,7 +90,7 @@ body {
   border: 7px;
   border-style: solid;
   border-color: #663300;
-  border-radius: 4px;
+  border-radius: 9px;
 }
 #ToolName {
   font-family: 'Dosis', san-serif;
@@ -103,15 +103,27 @@ body {
   color: #33cc33;
   text-align: center;
   font-size: 50px;
+  padding: 5px;
   border: 7px;
-  border-radius: 4px;
+  border-radius: 9px;
   border-style: solid;
   border-color: #663300;
+}
+#ToolText {
+  font-family: 'Dosis', san-serif;
+  color: #33cc33;
+  text-align: center;
+  font-size: 50px;
 }
 
 #ToolTextBox {
   height: 70px;
   width: 300px;
+  border: 5px;
+  border-radius: 9px;
+  border-style: solid;
+  border-color: #663300;
+  margin-left: 10px;
 }
 #ToolRadioBox {
   height: 50px;

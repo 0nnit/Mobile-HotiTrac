@@ -99,17 +99,17 @@
             <!-- This action from this from should write to label the new plant in the Data base. -->
             <form action="###" class="input-group">
               <p>
-                <label id="ToolLabel">Plant ID#: (### From DB)</label>
+                <label id="ToolText">Plant ID#: (### From DB)</label>
               </p>
               <br />
               <p>
-                <label id="ToolLabel">Strain Name:</label>
+                <label id="ToolText">Strain Name: </label>
                 <input id="ToolTextBox" type="text" placeholder="Enter Strain Name" />
               </p>
               <br />
               <br />
               <p>
-                <h4 id="ToolLabel">(Select Strain Family)</h4>
+                <h4 id="ToolText">(Select Strain Family)</h4>
                 <input id="ToolRadioBox" type="radio" name="CreateIndica">
                 <label id="ToolLabel" for="CreatIndica"> Indica</label>
                 <br />
@@ -150,6 +150,11 @@
         <div id="WFarea" class="panel-body collapse" role="menu">
           <div class="container">
             <!-- This action from this from should write to add  watering data the new plant in the Data base. -->
+           <form action="###" class="input-group">
+             <p id="ToolText"><b>Fresh Water Test</b></p>
+             <p id="ToolText">(Test Water Prior to Nutrient Addition)</p>
+           </form>
+
 
           </div>
         </div>
